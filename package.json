@@ -1,0 +1,12 @@
+{
+  "name": "zyruks",
+  "version": "0.0.1",
+  "description": "zyruks starting project",
+  "main": "index.js",
+  "scripts": {
+    "stylelint-find-rules": "stylelint-find-new-rules --deprecated ./.stylelintrc.json"
+  },
+  "author": "Samuel Llibre Santos",
+  "license": "ISC",
+  "devDependencies": {}
+}
