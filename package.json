@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "zyruks starting project",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "stylelint-find-rules": "stylelint-find-new-rules --deprecated ./.stylelintrc.json"
+  },
   "author": "Samuel Llibre Santos",
   "license": "ISC",
   "devDependencies": {
@@ -23,6 +25,19 @@
     "html-minifier": "^4.0.0",
     "htmlhintrc": "^1.0.1",
     "postcss": "^8.4.14",
-    "sass": "^1.53.0"
+    "sass": "^1.53.0",
+    "stylelint": "^14.8.2",
+    "stylelint-color-format": "^1.1.0",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard-scss": "^3.0.0",
+    "stylelint-find-new-rules": "^4.0.0",
+    "stylelint-group-selectors": "^1.0.8",
+    "stylelint-images": "^2.0.1",
+    "stylelint-order": "^5.0.0",
+    "stylelint-scss": "^4.2.0",
+    "stylelint-selector-no-empty": "^1.0.8",
+    "stylelint-suitcss": "^5.0.0",
+    "stylelint-use-logical-spec": "^3.2.2"
   }
 }
